@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "NileRoutes\\NileRoutes.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "NileRoute.UI\\NileRoute.UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

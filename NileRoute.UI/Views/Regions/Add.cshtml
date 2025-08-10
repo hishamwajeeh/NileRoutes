@@ -1,0 +1,26 @@
+﻿@model NileRoute.UI.Models.AddRegionViewModel
+@{
+}
+
+<h1 class="mt-3">Add Region</h1>
+
+<form method="post">
+    <div class="mt-3">
+        <label for="code">Code</label>
+        <input type="text" class="form-control" asp-for="Code" required />
+    </div>
+
+    <div class="mt-3">
+        <label for="code">Name</label>
+        <input type="text" class="form-control" asp-for="Name" required />
+    </div>
+
+    <div class="mt-3">
+        <label for="code">Image URL</label>
+        <input type="text" class="form-control" asp-for="RegionImageUrl" required />
+    </div>
+
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>

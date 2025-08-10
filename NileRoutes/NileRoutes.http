@@ -1,0 +1,6 @@
+@NileRoutes_HostAddress = http://localhost:5126
+
+GET {{NileRoutes_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
